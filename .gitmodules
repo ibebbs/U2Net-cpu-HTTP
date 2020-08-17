@@ -1,0 +1,3 @@
+[submodule "U-2-Net"]
+	path = U-2-Net
+	url = https://github.com/NathanUA/U-2-Net
