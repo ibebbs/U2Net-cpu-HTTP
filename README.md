@@ -1,3 +1,5 @@
+**Forked from [ideo](https://github.com/ideo/bg-removal-with-u2net) and changed to perform inference on CPU only**
+
 # U^2-Net HTTP
 
 This is an HTTP service wrapper of the model: [U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection](https://github.com/NathanUA/U-2-Net) (Qin et al, Pattern Recognition 2020)
@@ -7,7 +9,7 @@ The deploy folder contains configuration files for deployment as serverless cont
 # Usage:
 
 ```bash
-docker run --rm -p 8080:80 docker.io/cyrildiagne/u2net-http
+docker run --rm -p 8080:80 ibebbs/u2net-http
 ```
 
 # Test:
